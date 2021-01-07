@@ -6,7 +6,8 @@ git_source(:github) do |repo_name|
 end
 
 gem 'dotenv-rails', groups: [:development, :test]
-
+gem 'devise'
+gem 'bcrypt', '~> 3.1.7'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.7'
 # Use postgresql as the database for Active Record
